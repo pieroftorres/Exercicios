@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url(''https://fonts.googleapis.com/css2? family = Work + Sans: wght @ 100 & display = swap'');
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* lighter, normal, bold, bolder, de 100 até 900 */
+            font-style: italic;
+            text-decoration: underline;
+            
+            /* weight (peso), width (largura), height (altura) */
+        }
+
+        h1 {
+            /*
+            shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Work Sans', sans-serif;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fonte</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsam illo, voluptas delectus autem quasi, fuga libero quibusdam rerum debitis, veritatis eum perspiciatis quis maiores animi? Ut reprehenderit eum eius!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempore earum corporis amet hic omnis ex repudiandae fuga magnam totam unde, laboriosam saepe repellendus cupiditate dolor inventore, sequi itaque facilis!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum esse veritatis iusto rerum odit quod nemo pariatur? Nemo voluptatem earum inventore hic aliquid aut ducimus, porro minima enim temporibus officiis!</p>
+</body>
+</html>
